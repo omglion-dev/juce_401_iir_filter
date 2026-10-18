@@ -1,0 +1,24 @@
+# ---------------- Python ----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+*.pyproj
+*.sln
+
+# ---------------- VS Code 编辑器文件（新增） ----------------
+.vscode/
+# 下面这两行按需取舍
+# !.vscode/settings.json   # 如果想保留项目共享配置，取消注释
+# !.vscode/extensions.json
+
+*.code-workspace
+*.code-workspace.orig
+
+# 日志
+.vscode/.*.log
+
+# ---------------- OS 系统垃圾 ----------------
+.DS_Store
+Thumbs.db
